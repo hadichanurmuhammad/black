@@ -5,6 +5,9 @@
 	text-decoration: none;
 	box-sizing: border-box;
 }
+body{
+	font-family: 'Roboto', sans-serif;
+}
 .main{
 	display: flex;
 	justify-content: center;
@@ -22,7 +25,6 @@
 .nav{
 	position: relative;
 	margin-top: 30px;
-	font-family: 'Roboto', sans-serif;
 	display: flex;
 	align-items: center;
 }
@@ -43,7 +45,6 @@
 }
 .info-subtext{
 	padding-top: 70px;
-	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 50px;
 	color: #fff;
@@ -58,7 +59,6 @@
 	left: 300px;
 }
 .subtext{
-	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 50px;
 	color: #fff;
@@ -66,7 +66,6 @@
 	line-height: 0.8;
 }
 .title{
-	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 200px;
@@ -74,15 +73,62 @@
 	margin-top: 180px;
 	letter-spacing: 20px;
 }
-strong{
+.title > strong{
 	color: #fff;
 	opacity: 0.5;
 }
 .main-subtext{
-	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	top: 460px;
+	letter-spacing: 5px;
 	font-weight: bold;
 	font-size: 50px;
 	color: #fff;
 	text-transform: uppercase;
-	padding-left: 700px;
+	padding-left: 670px;
+}
+.footer{
+	display: flex;
+	padding-top: 30px;
+}
+.wild-subtext{
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	width: 150px;
+	border-right: 1px solid #fff;
+}
+.wild-subtext > strong {
+	color: #ebd673;
+	font-size: 16px;
+}
+.panther-subtext{
+	color: #fff;
+	width: 300px;
+	padding-left: 20px;
+	font-weight: bold;
+	padding-right: 20px;	
+}
+.footer-button{
+	border: none;
+	background-color: transparent;
+	outline: none;
+}
+.footer-img{
+	margin: 0 5px;
+}	
+.price-subtext{
+	font-weight: bold;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+.price-subtext > strong{
+	color: #ebd673;
+}
+.border{
+	border-right: 1px solid #fff;
+}
+.net-img{
+	margin-left: 20px;
 }
