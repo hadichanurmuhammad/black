@@ -5,8 +5,17 @@
 	text-decoration: none;
 	box-sizing: border-box;
 }
+@font-face {
+    font-family: 'hadicha';
+    src: url('./fonts/Swiss721BT-BlackCondensed.woff2') format('woff2'),
+        url('./fonts/Swiss721BT-BlackCondensed.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'hadicha', sans-serif;
+	font-weight: 900!important;
 }
 .main{
 	display: flex;
